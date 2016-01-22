@@ -2,4 +2,4 @@ language: c
 sudo: required
 before_install:
     - sudo apt-get update -qq
-    - sudo apt-get install -qq zlib1g-dev doxygen libfuse-dev libglobus-common-dev libglobus-gss-assist-dev libkrb5-dev libmysqlclient-dev libreadline-dev swig python-dev m4
+    - sudo apt-get install -qq zlib1g-dev doxygen libfuse-dev libglobus-common-dev libglobus-gss-assist-dev libkrb5-dev libmysqlclient-dev libreadline-dev swig python-dev libperl-dev m4
